@@ -12,6 +12,7 @@ Setup dotfile steps
     $ ln -s ~/.dotfiles/.vimrc ~/.vimrc
     $ ln -s ~/.dotfiles/starship.toml ~/.config/starship.toml
     $ ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
+    $ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 Install brewfile casks - $ brew bundle install
 Check brew setup correctly - $ brew doctor
