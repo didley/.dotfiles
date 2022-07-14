@@ -10,7 +10,7 @@ set fish_cursor_visual block
 # Stairship init
 starship init fish | source
 
-# Nvm config
+# NVM init
 function nvm
    bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
 end

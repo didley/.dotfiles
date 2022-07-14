@@ -13,14 +13,28 @@ Setup dotfile steps
     $ ln -s ~/.dotfiles/starship.toml ~/.config/starship.toml
     $ ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
 
-Install brewfile casks
-    $ brew bundle install
+Install brewfile casks - $ brew bundle install
+Check brew setup correctly - $ brew doctor
 
-Set fish as default shell
+Config fish 
+ Set as default shell
     $ sudo echo /opt/homebrew/bin/fish >> /etc/shells
     $ chsh -s /opt/homebrew/bin/fish
+ 
+ Set paths
+    $ fish_add_path /opt/homebrew/bin
+    $ fish_add_path /opt/homebrew/sbin
+ 
+Setup fish with NVM - https://github.com/nvm-sh/nvm#fish
+ Install Bass - $ fisher install edc/bass
+ Create nvm.fish - $ touch ~/.config/fish/functions/nvm.fish
+ Insert to /nvm.fish
+    function nvm
+        bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
+    end
 
-Browser extensions
+
+Installs browser extensions
 - JSON Formatter
 - React dev tools
 - Redux dev tools
