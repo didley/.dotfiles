@@ -13,7 +13,12 @@ Setup dotfile steps
     $ ln -s ~/.dotfiles/starship.toml ~/.config/starship.toml
     $ ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
 
-- install brewfile casks - $ brew bundle install
+Install brewfile casks
+    $ brew bundle install
+
+Set fish as default shell
+    $ sudo echo /opt/homebrew/bin/fish >> /etc/shells
+    $ chsh -s /opt/homebrew/bin/fish
 
 Browser extensions
 - JSON Formatter
@@ -33,6 +38,6 @@ Commands
 
 Guides
  dotfiles - https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/
- better method for dotfiles (not how above this repo is setup) - https://www.atlassian.com/git/tutorials/dotfiles
+ better dotfiles methos (not how above this repo is setup) - https://www.atlassian.com/git/tutorials/dotfiles
  brewfile - https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f
  
