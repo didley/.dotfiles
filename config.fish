@@ -19,3 +19,4 @@ nvm use default --silent
 # Aliases
 alias tigs="tig status"
 alias v="nvim"
+alias save_dots="brew bundle dump --describe --global --force && cd ~/.dotfiles && git add . && git commit -m 'dotfiles save' && git push"
