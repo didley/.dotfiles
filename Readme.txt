@@ -1,24 +1,38 @@
-# update .brewfile
-brew bundle dump --describe --global --force
+Mac Setup Notes
 
-# view hidden files
-ls -a
+- Install brew - https://brew.sh
+- Install Node Version Manager (NVM) (Not recommended to be installed with brew) - https://github.com/nvm-sh/nvm
 
-# move files
-mv ~/.zshrc ~/dotfiles/
+Setup dotfile steps
+- clone this repo to ~/.dotfiles
+- delete any pre created dotfiles eg. rm .vimrc
+- simlink each dotfile
+    $ ln -s ~/.dotfiles/.Brewfile ~/.Brewfile
+    $ ln -s ~/.dotfiles/.zshrc ~/.zshrc
+    $ ln -s ~/.dotfiles/.vimrc ~/.vimrc
+    $ ln -s ~/.dotfiles/starship.toml ~/.config/starship.toml
+    $ ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
 
-# symlink files
-ln -s ~/.dotfiles/.vimrc  ~/.vimrc
+- install brewfile casks - $ brew bundle install
 
-1. clone dotfiles repo to ~/.dotfiles
-2. delete any pre created dotfiles eg. rm .vimrc
-3. simlink each dotfile
-    ln -s ~/.dotfiles/.Brewfile ~/.Brewfile
-    ln -s ~/.dotfiles/.zshrc ~/.zshrc
-    ln -s ~/.dotfiles/.vimrc ~/.vimrc
-    ln -s ~/.dotfiles/starship.toml ~/.config/starship.toml
-    ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
+Browser extensions
+- JSON Formatter
+- React dev tools
+- Redux dev tools
 
+Other config steps
+- setup mongodb to run on startup - $ brew services start mongodb-community
+- setup gitHub Cli - $ gh auth login
+- dbeaver-community - Turn off always run in background in Prefs
 
-# dotfile guide https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/
-# Brewfile notes https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f
+Commands
+ update .brewfile    $ brew bundle dump --describe --global --force
+ view hidden files   $ ls -a
+ move files          $ mv ~/.zshrc ~/dotfiles/
+ symlink files       $ ln -s ~/.dotfiles/.vimrc  ~/.vimrc
+
+Guides
+ dotfiles - https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/
+ better method for dotfiles (not how above this repo is setup) - https://www.atlassian.com/git/tutorials/dotfiles
+ brewfile - https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f
+ 
