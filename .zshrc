@@ -9,7 +9,7 @@ antigen bundle nvm
 antigen bundle jeffreytse/zsh-vi-mode
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting # Must be last bundle
+antigen bundle zdharma-continuum/fast-syntax-highlighting
 
 antigen apply
 
@@ -20,6 +20,7 @@ ENABLE_CORRECTION="true" # command auto-correction
 # Alias 
 alias tigs="tig status"
 alias v="nvim"
+alias save_dots="brew bundle dump --describe --global --force && cd ~/.dotfiles && git add . && git commit -m 'dot    files save' && git push"
 
 # Starship init
 eval "$(starship init zsh)"
