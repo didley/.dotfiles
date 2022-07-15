@@ -51,8 +51,8 @@ Commands
  move files          $ mv ~/.zshrc ~/dotfiles/
  symlink files       $ ln -s ~/.dotfiles/.vimrc  ~/.vimrc
 
-Save brews & update dotfiles repo (fish alias)
-  fish $ save_dots
+Save brews & update dotfiles repo (fish/zsh alias)
+ $ save_dots
 
 Guides
  dotfiles - https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/
