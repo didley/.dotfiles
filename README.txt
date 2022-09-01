@@ -2,6 +2,7 @@ Mac Setup Notes
 
 - Install brew - https://brew.sh
 - Install Node Version Manager (NVM) (Not recommended to be installed with brew) - https://github.com/nvm-sh/nvm
+- config GitHub SSH keys - https://github.com/dolmen/github-keygen
 
 Setup dotfile steps
 - clone this repo to ~/.dotfiles
@@ -44,6 +45,7 @@ Other config steps
 - setup mongodb to run on startup - $ brew services start mongodb-community
 - setup gitHub Cli - $ gh auth login
 - dbeaver-community - Turn off always run in background in Prefs
+- $ brew analytics off
 
 Commands
  update .brewfile    $ brew bundle dump --describe --global --force

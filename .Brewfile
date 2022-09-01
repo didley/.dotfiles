@@ -72,8 +72,6 @@ cask "figma"
 cask "firefox-developer-edition"
 # Typeface made for developers
 cask "font-jetbrains-mono"
-# Web browser
-cask "google-chrome"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
 # Terminal emulator as alternative to Apple's Terminal app
