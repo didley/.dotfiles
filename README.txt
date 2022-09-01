@@ -2,7 +2,7 @@ Mac Setup Notes
 
 - Install brew - https://brew.sh
 - Install Node Version Manager (NVM) (Not recommended to be installed with brew) - https://github.com/nvm-sh/nvm
-- config GitHub SSH keys - https://github.com/dolmen/github-keygen
+- config GitHub SSH keys - https://github.com/dolmen/github-keygen - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 Setup dotfile steps
 - clone this repo to ~/.dotfiles
