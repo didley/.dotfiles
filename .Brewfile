@@ -44,6 +44,8 @@ brew "zsh"
 brew "heroku/brew/heroku"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Enable Windows-like alt-tab
+cask "alt-tab"
 # Tools for building Android applications
 cask "android-studio"
 # Manage team projects and tasks
@@ -60,6 +62,8 @@ cask "camo-studio"
 cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Draw.io is free online diagram software
 cask "drawio"
 # Collaborative team software
@@ -68,8 +72,8 @@ cask "figma"
 cask "firefox-developer-edition"
 # Typeface made for developers
 cask "font-jetbrains-mono"
-# Free and open-source image editor
-cask "gimp"
+# Web browser
+cask "google-chrome"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -102,18 +106,3 @@ cask "vlc"
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Accelerate", id: 1459809092
-mas "AdGuard for Safari", id: 1440147259
-mas "Affinity Designer", id: 824171161
-mas "Amphetamine", id: 937984704
-mas "Gifski", id: 1351639930
-mas "Grammarly for Safari", id: 1462114288
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Messenger", id: 1480068668
-mas "Noir", id: 1592917505
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Save to Raindrop.io", id: 1549370672
-mas "Vimari", id: 1480933944
-mas "Xcode", id: 497799835
