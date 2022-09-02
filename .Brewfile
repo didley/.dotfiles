@@ -96,17 +96,3 @@ cask "vlc"
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Accelerate", id: 1459809092
-mas "AdGuard for Safari", id: 1440147259
-mas "Affinity Designer", id: 824171161
-mas "Amphetamine", id: 937984704
-mas "Gifski", id: 1351639930
-mas "Grammarly for Safari", id: 1462114288
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Messenger", id: 1480068668
-mas "Noir", id: 1592917505
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Vimari", id: 1480933944
-mas "Xcode", id: 497799835
