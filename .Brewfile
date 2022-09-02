@@ -22,10 +22,6 @@ brew "git-delta"
 brew "mas"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Platform built on V8 to build network applications
-brew "node@14"
-# 📦🚀 Fast, disk space efficient package manager
-brew "pnpm"
 # Tools for Multiple Arcade Machine Emulator
 brew "rom-tools"
 # Cross-shell prompt for astronauts
@@ -34,8 +30,6 @@ brew "starship"
 brew "tig"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Vi 'workalike' with many additional features
-brew "vim"
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
@@ -52,8 +46,6 @@ cask "android-studio"
 cask "asana"
 # Two-factor authentication software
 cask "authy"
-# Scriptable scratchpad for developers
-cask "boop"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Use your phone as a high-quality webcam with image tuning controls
@@ -104,18 +96,3 @@ cask "vlc"
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Accelerate", id: 1459809092
-mas "AdGuard for Safari", id: 1440147259
-mas "Affinity Designer", id: 824171161
-mas "Amphetamine", id: 937984704
-mas "Gifski", id: 1351639930
-mas "Grammarly for Safari", id: 1462114288
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Messenger", id: 1480068668
-mas "Noir", id: 1592917505
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Save to Raindrop.io", id: 1549370672
-mas "Vimari", id: 1480933944
-mas "Xcode", id: 497799835

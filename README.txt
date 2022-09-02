@@ -1,13 +1,15 @@
 Mac Setup Notes
 
-- Install brew - https://brew.sh
-- Install Node Version Manager (NVM) (Not recommended to be installed with brew) 
-- https://github.com/nvm-sh/nvm
-- config GitHub SSH keys 
--- https://github.com/dolmen/github-keygen 
--- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+- [ ] Install brew - https://brew.sh
 
-Setup dotfile steps
+- [ ] Install Node Version Manager (NVM) (Not recommended to be installed with brew) 
+- https://github.com/nvm-sh/nvm
+
+- [ ] config GitHub SSH keys 
+- https://github.com/dolmen/github-keygen 
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+- [ ] Setup dotfiles
 - clone this repo to ~/.dotfiles
 - delete any pre created dotfiles eg. rm .vimrc
 - simlink each dotfile
@@ -18,10 +20,10 @@ Setup dotfile steps
     $ ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
     $ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
-Install brewfile casks - $ brew bundle install
-Check brew setup correctly - $ brew doctor
+- [ ] Install brewfile casks - $ brew bundle install
+- [ ] Check brew setup correctly - $ brew doctor
 
-Config fish 
+- [ ] Config fish 
  Set as default shell
     $ sudo echo /opt/homebrew/bin/fish >> /etc/shells
     $ chsh -s /opt/homebrew/bin/fish
@@ -30,7 +32,7 @@ Config fish
     $ fish_add_path /opt/homebrew/bin
     $ fish_add_path /opt/homebrew/sbin
  
-Setup fish with NVM - https://github.com/nvm-sh/nvm#fish
+- [ ] Setup fish with NVM - https://github.com/nvm-sh/nvm#fish
  Install Bass - $ fisher install edc/bass
  Create nvm.fish - $ touch ~/.config/fish/functions/nvm.fish
  Insert to /nvm.fish
@@ -39,16 +41,16 @@ Setup fish with NVM - https://github.com/nvm-sh/nvm#fish
     end
 
 
-Installs browser extensions
+- [ ] Installs browser extensions
 - JSON Formatter
 - React dev tools
 - Redux dev tools
 
 Other config steps
-- setup mongodb to run on startup - $ brew services start mongodb-community
-- setup gitHub Cli - $ gh auth login
-- dbeaver-community - Turn off always run in background in Prefs
-- $ brew analytics off
+- [ ] setup mongodb to run on startup - $ brew services start mongodb-community
+- [ ] setup gitHub Cli - $ gh auth login
+- [ ] dbeaver-community - Turn off always run in background in Prefs
+- [ ] $ brew analytics off
 
 Commands
  update .brewfile    $ brew bundle dump --describe --global --force
