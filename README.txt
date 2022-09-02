@@ -41,7 +41,7 @@ Mac Setup Notes
     end
 
 
-- [ ] Installs browser extensions
+[ ] Installs browser extensions
 - JSON Formatter
 - React dev tools
 - Redux dev tools
