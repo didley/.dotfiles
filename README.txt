@@ -20,7 +20,7 @@ Mac Setup Notes
     $ ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
     $ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
-# Install brewfile casks - $ brew bundle install
+# Install brewfile casks - $ brew bundle install --global
 # Check brew setup correctly - $ brew doctor
 
 # Config fish 
