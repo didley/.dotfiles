@@ -12,6 +12,8 @@ brew "antigen"
 brew "bat"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# GNU compiler collection
+brew "gcc"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -64,6 +66,8 @@ cask "figma"
 cask "firefox-developer-edition"
 # Typeface made for developers
 cask "font-jetbrains-mono"
+# Grammarly for desktop
+cask "grammarly-desktop"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -82,6 +86,8 @@ cask "postman"
 cask "react-native-debugger"
 # Instant messaging application focusing on security
 cask "signal"
+# Graphical client for Git version control
+cask "sourcetree"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
 # Unpacks archive files
@@ -96,3 +102,17 @@ cask "vlc"
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Accelerate", id: 1459809092
+mas "AdGuard for Safari", id: 1440147259
+mas "Affinity Designer", id: 824171161
+mas "Amphetamine", id: 937984704
+mas "Gifski", id: 1351639930
+mas "Grammarly for Safari", id: 1462114288
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Messenger", id: 1480068668
+mas "Noir", id: 1592917505
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Vimari", id: 1480933944
+mas "Xcode", id: 497799835

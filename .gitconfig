@@ -1,6 +1,6 @@
 [user]
 	name = Dylan Lamont
-	email = 38599829+didley@users.noreply.github.com
+	email = didley.dev@gmail.com
 
 [pager]
     diff = delta
@@ -31,3 +31,13 @@
 	clean = git-lfs clean -- %f
 [init]
 	defaultBranch = dev
+[core]
+	excludesfile = /Users/dylanlamont/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/dylanlamont/.stCommitMsg
