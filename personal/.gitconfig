@@ -1,11 +1,6 @@
 [user]
-<<<<<<<< HEAD:personal/.gitconfig
 	name = Dylan Lamont
 	email = didley.dev@gmail.com
-========
-	name = Dylan Lamont (didley)
-	email = dylan.lamont@mindsethealth.com
->>>>>>>> 54a7da8 (update separating to /work dir):work/.gitconfig
 
 [pager]
     diff = delta
@@ -37,11 +32,7 @@
 [init]
 	defaultBranch = dev
 [core]
-<<<<<<<< HEAD:personal/.gitconfig
 	excludesfile = /Users/dylanlamont/.gitignore_global
-========
-	excludesfile = /Users/dylan/.gitignore_global
->>>>>>>> 54a7da8 (update separating to /work dir):work/.gitconfig
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -49,8 +40,4 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-<<<<<<<< HEAD:personal/.gitconfig
 	template = /Users/dylanlamont/.stCommitMsg
-========
-	template = /Users/dylan/.stCommitMsg
->>>>>>>> 54a7da8 (update separating to /work dir):work/.gitconfig

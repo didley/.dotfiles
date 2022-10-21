@@ -19,10 +19,8 @@ nvm use default --silent
 # Aliases
 alias l="ls -a"
 alias v="nvim"
-<<<<<<<< HEAD:personal/config.fish
 alias save_dots="brew bundle dump --describe --all --global --force && cd ~/.dotfiles && git pull && git add . && git commit -m 'dotfiles save' && git push"
-========
-alias save_dots="brew bundle dump --describe --all --global --force && cd ~/.dotfiles && git add . && git commit -m 'dotfiles save' && git push"
+alias upgrade="brew upgrade & mas upgrade && save_dots"
 
 # ----------- React Native ------
 # Android sdk tools
@@ -32,4 +30,3 @@ fish_add_path $ANDROID_HOME/tools
 fish_add_path $ANDROID_HOME/tools/bin
 fish_add_path $ANDROID_HOME/emulator
 fish_add_path $ANDROID_HOME/platform-tools
->>>>>>>> 54a7da8 (update separating to /work dir):work/config.fish
