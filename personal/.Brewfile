@@ -36,8 +36,6 @@ brew "perl"
 brew "rom-tools"
 # Cross-shell prompt for astronauts
 brew "starship"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
