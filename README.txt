@@ -19,6 +19,7 @@ Mac Setup Notes
     $ ln -s ~/.dotfiles/starship.toml ~/.config/starship.toml
     $ ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
     $ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+    $ ln -s ~/.dotfiles/.zsh_plugins.txt ~/.zsh_plugins.txt
 
 # Install brewfile casks - $ brew bundle install --global
 # Check brew setup correctly - $ brew doctor

@@ -6,10 +6,12 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
-# Plugin manager for zsh, inspired by oh-my-zsh and vundle
-brew "antigen"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # GNU compiler collection
@@ -22,14 +24,18 @@ brew "git"
 brew "git-delta"
 # Mac App Store command-line interface
 brew "mas"
+# Platform built on V8 to build network applications
+brew "node@16"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Highly capable, feature-rich programming language
+brew "perl"
 # Tools for Multiple Arcade Machine Emulator
 brew "rom-tools"
 # Cross-shell prompt for astronauts
 brew "starship"
-# Text interface for Git repositories
-brew "tig"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # JavaScript package manager
@@ -50,16 +56,12 @@ cask "asana"
 cask "authy"
 # Web browser focusing on privacy
 cask "brave-browser"
-# Use your phone as a high-quality webcam with image tuning controls
-cask "camo-studio"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Draw.io is free online diagram software
-cask "drawio"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -84,10 +86,6 @@ cask "numi"
 cask "postman"
 # Standalone app for debugging React Native apps
 cask "react-native-debugger"
-# Instant messaging application focusing on security
-cask "signal"
-# Graphical client for Git version control
-cask "sourcetree"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
 # Unpacks archive files
@@ -98,8 +96,6 @@ cask "transmission"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# Desktop client for WhatsApp
-cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Accelerate", id: 1459809092
@@ -110,9 +106,6 @@ mas "Gifski", id: 1351639930
 mas "Grammarly for Safari", id: 1462114288
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "Messenger", id: 1480068668
-mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Vimari", id: 1480933944
 mas "Xcode", id: 497799835
