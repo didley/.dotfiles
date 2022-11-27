@@ -21,3 +21,6 @@ alias l="ls -a"
 alias v="nvim"
 alias save_dots="brew bundle dump --describe --all --global --force && cd ~/.dotfiles && git pull && git add . && git commit -m 'dotfiles save' && git push"
 alias upgrade="brew upgrade & mas upgrade && save_dots"
+
+# Configs Rust path
+export PATH="$HOME/.cargo/bin:$PATH"

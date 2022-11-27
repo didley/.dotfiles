@@ -66,6 +66,8 @@ cask "figma"
 cask "firefox-developer-edition"
 # Typeface made for developers
 cask "font-jetbrains-mono"
+# Web browser
+cask "google-chrome"
 # Grammarly for desktop
 cask "grammarly-desktop"
 # Tool to optimize images to a smaller size
@@ -84,6 +86,8 @@ cask "numi"
 cask "postman"
 # Standalone app for debugging React Native apps
 cask "react-native-debugger"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
 # Unpacks archive files
