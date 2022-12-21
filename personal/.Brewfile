@@ -8,8 +8,6 @@ tap "homebrew/services"
 tap "mongodb/brew"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -22,6 +20,8 @@ brew "gh"
 brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
@@ -48,12 +48,8 @@ brew "mongodb/brew/mongodb-community"
 cask "alt-tab"
 # Tools for building Android applications
 cask "android-studio"
-# Manage team projects and tasks
-cask "asana"
 # Two-factor authentication software
 cask "authy"
-# Web browser focusing on privacy
-cask "brave-browser"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # Voice and text chat software
@@ -62,8 +58,6 @@ cask "discord"
 cask "docker"
 # Collaborative team software
 cask "figma"
-# Web browser
-cask "firefox-developer-edition"
 # Typeface made for developers
 cask "font-jetbrains-mono"
 # Web browser
@@ -78,12 +72,8 @@ cask "iterm2"
 cask "maccy"
 # Explore and manipulate your MongoDB data
 cask "mongodb-compass"
-# Utility to move and zoom windows—on one display
-cask "moom"
 # Calculator and converter application
 cask "numi"
-# Collaboration platform for API development
-cask "postman"
 # Standalone app for debugging React Native apps
 cask "react-native-debugger"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -106,7 +96,6 @@ mas "Affinity Designer", id: 824171161
 mas "Amphetamine", id: 937984704
 mas "Gifski", id: 1351639930
 mas "Grammarly for Safari", id: 1462114288
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
