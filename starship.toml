@@ -2,12 +2,14 @@ format = """
 $username\
 $hostname\
 $directory\
+$line_break\
 $git_branch\
-$git_state\
-$git_status\
+$line_break\
 $cmd_duration\
 $all\
 $shell\
+$git_state\
+$git_status\
 $line_break\
 $character"""
 
@@ -21,7 +23,7 @@ error_symbol = "[x](bold red)"
 vicmd_symbol = "[<](bold bright-green)"
 
 [git_branch]
-format = "[$branch](bold $style)"
+format = "[$branch]($style)"
 style = "bright-black"
 
 [git_status]
