@@ -56,6 +56,8 @@ cask "dbeaver-community"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Emulator to play GameCube and Wii games
+cask "dolphin"
 # Collaborative team software
 cask "figma"
 # Typeface made for developers
@@ -74,6 +76,8 @@ cask "maccy"
 cask "mongodb-compass"
 # Calculator and converter application
 cask "numi"
+# Home media server
+cask "plex-media-server"
 # Standalone app for debugging React Native apps
 cask "react-native-debugger"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -92,7 +96,6 @@ cask "vlc"
 cask "zoom"
 mas "Accelerate", id: 1459809092
 mas "AdGuard for Safari", id: 1440147259
-mas "Affinity Designer", id: 824171161
 mas "Amphetamine", id: 937984704
 mas "Gifski", id: 1351639930
 mas "Grammarly for Safari", id: 1462114288
