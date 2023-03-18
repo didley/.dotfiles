@@ -32,6 +32,8 @@ brew "neovim"
 brew "node"
 # Highly capable, feature-rich programming language
 brew "perl"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
 # Tools for Multiple Arcade Machine Emulator
 brew "rom-tools"
 # Cross-shell prompt for astronauts
@@ -44,12 +46,8 @@ brew "zsh"
 brew "heroku/brew/heroku"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
-# Enable Windows-like alt-tab
-cask "alt-tab"
 # Tools for building Android applications
 cask "android-studio"
-# Two-factor authentication software
-cask "authy"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # Voice and text chat software
@@ -62,8 +60,6 @@ cask "dolphin"
 cask "figma"
 # Typeface made for developers
 cask "font-jetbrains-mono"
-# Web browser
-cask "google-chrome"
 # Grammarly for desktop
 cask "grammarly-desktop"
 # Tool to optimize images to a smaller size
@@ -72,6 +68,8 @@ cask "imageoptim"
 cask "iterm2"
 # Clipboard manager
 cask "maccy"
+# Web browser
+cask "microsoft-edge"
 # Explore and manipulate your MongoDB data
 cask "mongodb-compass"
 # Calculator and converter application
@@ -82,8 +80,6 @@ cask "plex-media-server"
 cask "react-native-debugger"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Remote access and connectivity software focused on security
-cask "teamviewer"
 # Unpacks archive files
 cask "the-unarchiver"
 # Open-source BitTorrent client
