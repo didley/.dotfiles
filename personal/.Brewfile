@@ -1,3 +1,4 @@
+tap "facebook/fb"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -6,8 +7,12 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -20,8 +25,8 @@ brew "gh"
 brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
@@ -34,10 +39,14 @@ brew "node"
 brew "perl"
 # 📦🚀 Fast, disk space efficient package manager
 brew "pnpm"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Tools for Multiple Arcade Machine Emulator
 brew "rom-tools"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Video processing framework with simplicity in mind
+brew "vapoursynth"
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
@@ -52,25 +61,23 @@ cask "android-studio"
 cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Emulator to play GameCube and Wii games
 cask "dolphin"
 # Collaborative team software
 cask "figma"
 # Typeface made for developers
 cask "font-jetbrains-mono"
+# Git interface focused on visual interaction
+cask "gitup"
 # Grammarly for desktop
 cask "grammarly-desktop"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Clipboard manager
 cask "maccy"
 # Web browser
 cask "microsoft-edge"
-# Explore and manipulate your MongoDB data
+# Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Calculator and converter application
 cask "numi"
@@ -80,6 +87,10 @@ cask "plex-media-server"
 cask "react-native-debugger"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Displays all open files and sockets in use by all running processes
+cask "sloth"
+# Git client
+cask "sublime-merge"
 # Unpacks archive files
 cask "the-unarchiver"
 # Open-source BitTorrent client
@@ -88,6 +99,8 @@ cask "transmission"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+# Multiplayer code editor
+cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Accelerate", id: 1459809092
